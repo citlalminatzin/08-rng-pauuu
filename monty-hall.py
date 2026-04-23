@@ -42,10 +42,20 @@ def play_change(n:int = 1000) -> float:
     Juega monty-hall con la estrategia de cambiar la puerta
     Regresa la tasa de éxito
     """
-    ...
-def play_stay(n:int = 1000)->float:
-    """Juega monty-hall con la estrategia de NO cambiar la puerta"""
-    ...
+    victorias = 0
+    
+    for _ in range(n):
+        victorias += simular_juego(cambiar=True)
+    
+    return victorias / n
+    
+def play_stay(n: int = 1000) -> float:
+    victorias = 0
+    
+    for _ in range(n):
+        victorias += simular_juego(cambiar=False)
+    
+    return victorias / n
 
 def main():
     success_change = play_change()
