@@ -58,9 +58,8 @@ def play_stay(n: int = 1000) -> float:
     return victorias / n
 
 def main():
-    success_change = play_change()
-    success_stay   = play_stay()
-    print(f"{success_change=} {success_stay=}")
+    print("Proba de ganar, cambiando la caja:", play_change(10000))
+    print("Proba de ganar, quedándose con la caja original:", play_stay(10000))
 
 
 if "__name__" == "__main__":
