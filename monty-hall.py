@@ -1,9 +1,6 @@
-
+import random
 def create_game()->int:
-    """Escoge la puerta ganadora"""
-    import random
-
-def juego_gato():
+    """Escoge la caja ganadora"""
     print("Un gatito tiene 3 cajas: A, B, C")
     print("Solo una tiene un pescado, las otras tienen pepinos\n")
 
@@ -38,7 +35,7 @@ def juego_gato():
     else:
         print(f"Había un pepino. El pescado estaba en la caja {pescado}")
 
-juego_gato()
+create_game()
 
 def play_change(n:int = 1000) -> float:
     """
