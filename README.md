@@ -8,5 +8,5 @@ Se ocupa la libreria `random` para ejecutar el código.
 Un gato hambriento enfrenta 3 cajas: solo una guarda un pescado fresco, las otras esconden pepinos. Después de que el gato selecciona una de las cajas el humamno abre una caja sin pescado y le ofrece la opción de cambiar. ¿Cuáles son las probabilidades de ganar escogiendo cambiar la caja y no cambiandola?
 
 **¿Qué esta pasando en el juego?**
-Al tener 3 cajas nuestras probabilidades son de \\frac{1}{3} y al decidir cambiar de caja nuestras probabilidades de ganar ahora se duplican.
-La estrategia para encontrar el pescado es que cuando se abra una caja con pepino, cambias la caja porque la proba se transfiere y ahora es \\frac{2}{3}.
+Al tener 3 cajas nuestras probabilidades son de $\frac{1}{3}$ y al decidir cambiar de caja nuestras probabilidades de ganar ahora se duplican.
+La estrategia para encontrar el pescado es que cuando se abra una caja con pepino, cambias la caja porque la proba se transfiere y ahora es $\frac{2}{3}$.
